@@ -11,3 +11,5 @@ function FullScreen(props){
     </Icon>
   )
 }
+
+export default FullScreen;

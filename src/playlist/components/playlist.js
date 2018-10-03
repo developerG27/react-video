@@ -4,6 +4,7 @@ import './playlist.css';
 import Play from '../../icons/components/play'
 import Volume from '../../icons/components/volume'
 import Pause from '../../icons/components/pause'
+import FullScreen from '../../icons/components/full-screen.js';
 
 function Playlist(props) {
   const playlist = props.data.categories[0].playlist
@@ -12,17 +13,22 @@ function Playlist(props) {
     <div className='Playlist'>
       <Play
         size={50}
-        color="red"
+        color="black"
       />
 
       <Volume
         size={50}
-        color="red"
+        color="black"
       />
 
       <Pause
         size={50}
-        color="red"
+        color="black"
+      />
+
+      <FullScreen
+        size={50}
+        color="black"
       />
 
       {
