@@ -4,11 +4,11 @@ import Playlist from '../../playlist/components/playlist.js';
 function Category(props){
   return(
     <div>
-      <p>{props.description}</p>
-      <h2>{props.title}</h2>
-      <Playlist
-        playlist={props.playlist}
-      />
+        <p>{props.description}</p>
+        <h2>{props.title}</h2>
+        <Playlist
+          playlist={props.playlist}        
+        />
     </div>
   )
 }

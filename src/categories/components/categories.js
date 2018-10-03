@@ -6,7 +6,7 @@ function Categories(props){
     <div>
       {
         props.categories.map((item)=>{
-          <Category key={item.id} {...item} />
+          return <Category key={item.id} {...item} />
         })
       }
     </div>
