@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Media from './src/playlist/components/media';
+import data from './src/api.json';
 
 const app = document.querySelector('#app');
 // const hello = <h1>Hello world</h1>
