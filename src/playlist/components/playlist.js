@@ -7,7 +7,7 @@ import Pause from '../../icons/components/pause'
 import FullScreen from '../../icons/components/full-screen.js';
 
 function Playlist(props) {
-  const playlist = props.data.categories[0].playlist
+  // const playlist = props.data.categories[0].playlist
   console.log(props.data)
   return(
     <div className='Playlist'>
