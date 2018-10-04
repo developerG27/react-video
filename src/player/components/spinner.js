@@ -5,7 +5,7 @@ function Spinner(props){
   if(!props.active) return null
   return(
     <div className="Spinner">
-      <span>Sto caricando..</span>
+      <span>⭮</span>
     </div>
   )
 }

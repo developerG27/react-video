@@ -1,13 +1,17 @@
-.Title{
+.Title {
+  background-color: rgba(0,0,0,.5);
+  color: #FFF;
   position: absolute;
-  top: 20px;
-  left: 20px;
-  background:rgba(0,0,0,.5);
-  color: white;
-  padding: 10px 20px;
+  top: 0;
+  left: 0;
+  width: inherit;
+  z-index: 100;
 }
-.Title h2{
-  margin: 0px;
-  font-size: 16px;
-  font-weight: normal;
+.Title h2 {
+  width: 95%;
+  font-size: 1rem;
+  margin: .5rem .75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

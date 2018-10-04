@@ -30,3 +30,6 @@
   font-weight: bold;
   font-size: 30px;
 }
+.Modal-close:hover{
+  opacity: 1;
+}

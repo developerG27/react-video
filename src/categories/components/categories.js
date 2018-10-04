@@ -2,7 +2,6 @@ import React from 'react';
 import Category from './category';
 import './categories.css';
 import Search from '../../widgets/containers/search'
-// import Search
 
 function Categories(props){
   return(
