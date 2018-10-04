@@ -5,6 +5,7 @@ import Title from '../components/title';
 import PlayPause from '../components/play-pause';
 import Timer from '../components/timer.js';
 import Controls from '../components/video-player-controls.js';
+import ProgressBar from '../components/progress-bar';
 
 class VideoPlayer extends Component {
   state = {
@@ -51,6 +52,7 @@ class VideoPlayer extends Component {
             duration={this.state.duration}
             currentTime ={this.state.currentTime}
           />
+          <ProgressBar/>
         </Controls>
         <Video
           autoplay={this.props.autoplay}
