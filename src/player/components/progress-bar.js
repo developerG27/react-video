@@ -6,7 +6,9 @@ function ProgressBar(props){
       <input 
         type="range"
         min={0}
-        max={500}
+        max={props.duration}
+        value={props.value}
+        onChange={props.handleProgressChange}
       />
     </div>
   )
