@@ -18,6 +18,7 @@
 
 .Media-image {
   object-fit: cover;
+  width:100%;
 }
 
 .Media-title {
@@ -27,6 +28,6 @@
 }
 
 .Media-author {
-  font-size: 12px;
+  font-size: 11px;
   margin: 5px 0 0 0;
 }

@@ -113,7 +113,7 @@ class VideoPlayer extends Component {
           handleTimeUpdate = {this.handleTimeUpdate}
           handleSeeking = {this.handleSeeking}
           handleSeeked = {this.handleSeeked}
-          src="http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+          src="http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4"
           />
       </VideoPlayerLayout>
     )
