@@ -2,8 +2,8 @@
   "categories": [
     {
       "id": 1,
-      "description": "Lo mejor de la semana",
-      "title": "Destacados",
+      "description": "Il meglio della settimana",
+      "title": "In primo piano",
       "playlist": [
         {
           "title": "¿Qué es responsive Design?",
@@ -49,8 +49,8 @@
     },
     {
       "id": 2,
-      "description": "Lo mejor para concentrarte",
-      "title": "Para programar",
+      "description": "Il meglio per concentrarti",
+      "title": "Per programmatori",
       "playlist": [
         {
           "title": "One more time",
@@ -96,8 +96,8 @@
     },
     {
       "id": 3,
-      "description": "Si no te queda de otra",
-      "title": "Music",
+      "description": "Per rilassarti",
+      "title": "Musica",
       "playlist": [
         {
           "title": "Despacito",

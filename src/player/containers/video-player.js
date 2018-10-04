@@ -100,7 +100,9 @@ class VideoPlayer extends Component {
           <FullScreen
             handleFullScreenClick = {this.handleFullScreenClick}
           />
+        
         </Controls>
+
         <Spinner
           active ={this.state.loading}
           />
