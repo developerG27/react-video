@@ -76,7 +76,7 @@ class VideoPlayer extends Component {
         setRef={this.setRef}
       >
         <Title
-          title="Questo è il titolo del video"
+          title={this.props.title}
         />
         <Controls>
           <PlayPause
@@ -113,7 +113,8 @@ class VideoPlayer extends Component {
           handleTimeUpdate = {this.handleTimeUpdate}
           handleSeeking = {this.handleSeeking}
           handleSeeked = {this.handleSeeked}
-          src="http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4"
+          src={this.props.src} 
+          //Mi sono chiesto perchè non caricava un nuovo video ogni volta che facevo click e ho scoperto che React ha un algoritmo che gli permette modificare solo quando c'è un cambiamento
           />
       </VideoPlayerLayout>
     )

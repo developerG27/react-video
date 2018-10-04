@@ -24,6 +24,7 @@ class Media extends PureComponent{
     // this.setState({
     //   author: 'RiccardoBianchi'
     // })
+    this.props.openModal(this.props);
   } 
 
   render(){
@@ -38,7 +39,7 @@ class Media extends PureComponent{
       }
     }*/
     return(
-      <div className="Media" /*style = {styles.container}*/ onClick={this.props.handleClick} >
+      <div className="Media" /*style = {styles.container}*/ onClick={this.handleClick} >
         <div className="Media-cover">
           <img 
             src={this.props.cover}

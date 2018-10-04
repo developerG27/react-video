@@ -14,7 +14,7 @@ function Playlist(props) {
       {
         props.playlist.map((item) => {
         // spread operator
-          return <Media handleClick={props.handleOpenModal} {...item} 
+          return <Media openModal={props.handleOpenModal} {...item} 
           key={item.id}/>
         })
       }
