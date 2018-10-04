@@ -1,5 +1,3 @@
-import React from 'react';
-import './timer.css';
 
 //00 => 0 +1 =  01
 function leftPad(number){
@@ -13,16 +11,4 @@ function formattedTime(secs){
   return `${minutes} : ${leftPad(seconds.toString())}`
 }
 
-function Timer(props){
-  return(
-    <div className="Timer">
-      <p>
-        <span>
-          {formattedTime(props.currentTime)} / {formattedTime(props.duration)}
-        </span>
-      </p>
-    </div>
-  )
-}
-
-export default Timer;
+export default formattedTime;
