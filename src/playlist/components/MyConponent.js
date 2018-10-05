@@ -1,3 +1,7 @@
+/*
+Questa parte non è collegata allo sviluppo, mi serve per studiare i ciclo di vita dei vari componenti
+*/
+
 class MyComponent extends Components{
   constructor(){
     //inizializzo lo state

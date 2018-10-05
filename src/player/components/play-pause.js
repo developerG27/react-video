@@ -3,21 +3,21 @@ import './play-pause.css';
 import Play from '../../icons/components/play';
 import Pause from '../../icons/components/pause';
 
-function PlayPause(props) {
+function PlayPause(props) { //componente funzionale
   return (
-    <div className="PlayPause">
+    <div className="PlayPause"> 
       {
-        props.pause ?
+        props.pause ? //se pause è true
           <button
-            onClick={props.handleClick}
+            onClick={props.handleClick} //al click fai partire la funzione
           >
-            <Play size={25} color="white" />
+            <Play size={25} color="white" /> {/*Componente Play*/}
           </button>
-        :
+        : //Altrimenti
         <button
-          onClick={props.handleClick}
+          onClick={props.handleClick} //al click fai partire la funzione
         >
-          <Pause size={25} color="white" />
+          <Pause size={25} color="white" /> {/*Componente Pause*/}
         </button>
       }
     </div>

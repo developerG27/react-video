@@ -11,12 +11,10 @@ module.exports = {
   devServer: {
     port: 9000,
   },
-  devtool: 'eval-source-map',
+  devtool: 'eval-source-map', //grazie a questa configurazione si riesce a depurare meglio il codice
   module: {
     rules: [
       {
-        // test: que tipo de archivo quiero reconocer,
-        // use: que loader se va a encargar del archivo
         test: /\.(js|jsx)$/,
         exclude: /(node_modules)/,
         use: {

@@ -4,8 +4,8 @@ import './full-screen.css';
 
 function FullScreen(props){
   return(
-    <div className="FullScreen" onClick={props.handleFullScreenClick}>
-      <FullScreenIcon
+    <div className="FullScreen" onClick={props.handleFullScreenClick /*Dopo il click fai partire la funzione*/}>
+      <FullScreenIcon //Componente full screen con le proprietà
         size={25}
         color="white"
       />

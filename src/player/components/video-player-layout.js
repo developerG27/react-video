@@ -1,24 +1,12 @@
 import React from 'react';
-import './video-player-layout.css';
+import './video-player-layout.css'; //importo i css di Video Player che si trovano nella stessa cartella
 
-const VideoPlayerLayout = (props) => (
+const VideoPlayerLayout = (props) => ( //arrow function che riceve come parametro le proprietà
   <div className="VideoPlayer"
-      ref={props.setRef}
+      ref={props.setRef} 
   >
-    {props.children}
+    {props.children} {/*Dentro ai componenti funzionali non si accetta this*/} 
   </div>
 )
 
-export default VideoPlayerLayout
-
-
-
-// export default class VideoPlayer extends Component{
-//   render(){
-//     return(
-//       <videoPlayerLayout>
-
-//       </videoPlayerLayout>
-//     )
-//   }
-// }
+export default VideoPlayerLayout;

@@ -15,7 +15,7 @@ function Volume(props){
         min = {0}
         max = {1}
         step = {.05} //Api html5: Indica di quanto in quanto va
-        onChange = {props.handleVolumeChange}
+        onChange = {props.handleVolumeChange} //quando cambia fa partire la funzione 
       />
       
       </div>
