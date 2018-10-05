@@ -1,5 +1,6 @@
 .Categories{
   overflow: hidden;
-  padding: 20px 0 20px 20px;
-  background: white;
+  padding: 20px 0 20px 100px;
+  background: #FAFAFA;
+  width: 100%;
 }

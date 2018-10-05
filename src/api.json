@@ -6,97 +6,97 @@
       "title": "In primo piano",
       "playlist": [
         {
-          "title": "¿Qué es responsive Design?",
-          "author": "LeonidasEsteban",
+          "title": "Cos'è Responsive Design",
+          "author": "Author",
           "type": "video",
           "cover": "./images/covers/responsive.jpg",
-          "src": "https://www.facebook.com/facebook/videos/10153231379946729/?t=39",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 1
         },
         {
-          "title": "Cómo optimzar la carga de un website",
-          "author": "LeonidasEsteban",
+          "title": "Come ottimizzare il caricamento di un sito web",
+          "author": "Author",
           "type": "video",
           "cover": "./images/covers/optimizar.jpg",
           "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 2
         },
         {
-          "title": "Qué es Bitcoin",
-          "author": "Yograterol",
+          "title": "Cos'è Bitcoin",
+          "author": "Author",
           "type": "video",
           "cover": "./images/covers/bitcoin.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 3
         },
         {
-          "title": "Que pasó con HTML5",
-          "author": "Freddier",
+          "title": "Cosa cambia con HTML 5.1",
+          "author": "Author",
           "type": "video",
           "cover": "./images/covers/html5.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 4
         },
         {
-          "title": "Lo mejor de Mejorando.la",
-          "author": "Cvander",
+          "title": "Presentati i nuovi iPhone",
+          "author": "Author",
           "type": "video",
-          "cover": "./images/covers/mejorandola.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "cover": "./images/covers/iphone.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 5
         }
       ]
     },
     {
       "id": 2,
-      "description": "Il meglio per concentrarti",
+      "description": "Il meglio",
       "title": "Per programmatori",
       "playlist": [
         {
-          "title": "One more time",
-          "author": "Daft Punk",
+          "title": "Mr.Robot",
+          "author": "Author",
           "type": "video",
-          "cover": "./images/covers/one-more-time.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "cover": "./images/covers/mr-robot.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 1
         },
         {
-          "title": "Midnight City",
-          "author": "M83",
+          "title": "Microsoft compra Github",
+          "author": "Author",
           "type": "video",
-          "cover": "./images/covers/midnight.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "cover": "./images/covers/microsoft-github.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 5
         },
         {
-          "title": "Solar Sailer",
-          "author": "Daft Punk",
+          "title": "Guida a React Native",
+          "author": "Author",
           "type": "video",
-          "cover": "./images/covers/solar-sailer.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "cover": "./images/covers/react-native.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 2
         },
         {
           "title": "The social network",
-          "author": "The social network",
+          "author": "Author",
           "type": "video",
           "cover": "./images/covers/social.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 4
         },
         {
-          "title": "No vaya a ser",
-          "author": "Pablo Alboran",
+          "title": "Il progetto SpaceX",
+          "author": "Author",
           "type": "video",
-          "cover": "./images/covers/no-vaya-a-ser.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "cover": "./images/covers/spacex.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 3
         }
       ]
     },
     {
       "id": 3,
-      "description": "Per rilassarti",
+      "description": "Il meglio per rilassarti",
       "title": "Musica",
       "playlist": [
         {
@@ -104,15 +104,15 @@
           "author": "Luis Fonsi",
           "type": "video",
           "cover": "./images/covers/despacito.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 1
         },
         {
-          "title": "Echame la culpa",
-          "author": "Luis fonsi",
+          "title": "In my Feelings",
+          "author": "Drake",
           "type": "video",
-          "cover": "./images/covers/echame-la-culpa.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "cover": "./images/covers/kiki.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 3
         },
         {
@@ -120,7 +120,7 @@
           "author": "J Bavil",
           "type": "video",
           "cover": "./images/covers/mi-gente.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 2
         },
         {
@@ -128,7 +128,7 @@
           "author": "Maluma",
           "type": "video",
           "cover": "./images/covers/felices.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 4
         },
         {
@@ -136,7 +136,7 @@
           "author": "Danny Ocean",
           "type": "video",
           "cover": "./images/covers/rehuso.jpg",
-          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
           "id": 5
         }
       ]
