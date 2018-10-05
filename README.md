@@ -11,7 +11,6 @@ Sotto alcuni punti di vista React si inspira a Php, dato che Facebook, come back
 ### Componenti
 Un componente è un eleemente indipendente e riutilizzabile, quando si dichiara il nome, quest'ultimo deve sempre essere scritto in PascalCase.
 Al suo interno si usa la sintassi di JSX per costruire elementi.
-Il componente prima di essere utilizzato deve sempre esportato.
 ```
 import React from 'React';
 class HelloWorld extends Component{
@@ -49,11 +48,37 @@ Sono più facili da creare e da leggere perchè hanno meno codice e non hanno bi
 Non si può utilizzare this.
 Ma i suoi svantaggi sono che non si possono utilizzare i metodi del ciclo di vita dei componenti al suo interno e non hanno uno state e non si possono utilizzare refs.
 
+Il componente prima di essere utilizzato deve sempre essere esportato, si può esportare anche nello stesso momento in cui si dichiara.
+```
+import React, {Component} from 'react';
+export default class HelloWorld extends Component{
+    render(){
+        return(
+            <p> Hello world </p>
+        )
+    }
+}
+```
+
 ### Props: le proprietà di un componente
 Quello che chiamiamo attributi in HTML, in JSX si chiamano proprietà
 
 ### State: lo stato di un componente
 Si occupa di gestire i dati dei componenti e se qualcosa cambia nello state, React gli aggiorna automaticamente.
+
+### Ciclo di vita dei componenti
+| Nome | Utilizzo |
+| ------ | ------ |
+| constructor() | E' il primo metodo che viene richiamato al creare un componente: possiamo inizializzare uno stato, aggiungere eventi (bind).  |
+| componentWillMount() | Si esegue prima di montare un componente (ancora non è visibile): possiamo eseguire un setState() |
+| render() | Contiene tutti gli elementi da reiderizzare, contiene anche JSN e il return |
+| componentDidMount() | Si usa solo una volta, e si richiama quando un componente viene aggiunto al DOM (è visibile) |
+| componentWillReceiveProps() | Richiamo quando il componente riceve nuove proprietà |
+| shouldComponentUpdate() | Quando le proprietà (props) o lo stato (state) di un componente è stato modificato|
+| componentWillUpdate() | Metodo richiamato prima di reiderizzare un componente se shouldComponentUpdate() ritorna true |
+| componentDidUpdate() | Metodo richiamato dopo il render |
+| componentWillUnmount() | Metodo richiamato prima di eliminare un componente |
+| componentDidCatch() | Se succede qualche errore lo posso catturare|
 
 
 
@@ -72,19 +97,7 @@ class diventa className.
 ### Hash
 Quando passi in produzione i file creati hanno un Hash, questo è stato creato per evitare che i file salvati nella cache del browser diano problemi quando facciamo qualche cambio.
 
-### Ciclo di vita dei componenti
-| Nome | Utilizzo |
-| ------ | ------ |
-| constructor() | E' il primo metodo che viene richiamato al creare un componente: possiamo inizializzare uno stato, aggiungere eventi (bind).  |
-| componentWillMount() | Si esegue prima di montare un componente (ancora non è visibile): possiamo eseguire un setState() |
-| render() | Contiene tutti gli elementi da reiderizzare, contiene anche JSN e il return |
-| componentDidMount() | Si usa solo una volta, e si richiama quando un componente viene aggiunto al DOM (è visibile) |
-| componentWillReceiveProps() | Richiamo quando il componente riceve nuove proprietà |
-| shouldComponentUpdate() | Quando le proprietà (props) o lo stato (state) di un componente è stato modificato|
-| componentWillUpdate() | Metodo richiamato prima di reiderizzare un componente se shouldComponentUpdate() ritorna true |
-| componentDidUpdate() | Metodo richiamato dopo il render |
-| componentWillUnmount() | Metodo richiamato prima di eliminare un componente |
-| componentDidCatch() | Se succede qualche errore lo posso catturare|
+
 
 
 

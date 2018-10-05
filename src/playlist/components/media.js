@@ -1,45 +1,22 @@
 import React, {PureComponent} from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'; //Importo il validatore delle proprietà
 import './media.css';
 
+
+//Componente delle cards
 class Media extends PureComponent{
   state = {
     author: 'Gian Pumayalla'
   }
-  // constructor(props){
-  //   super(props)
-  //   this.state = {
-  //     author: props.author
-  //   }
-  // //   this.handleClick = this.handleClick.bind(this)
-  // }
-  
-  // handleClick(event){
-  //   console.log(this.props.title)
-  // }
 
+  //la funzione che parte al click di media
   handleClick = (event) => {
-    // console.log(this.props.title)
-    // this.state.author = 'Riccardo'
-    // this.setState({
-    //   author: 'RiccardoBianchi'
-    // })
-    this.props.openModal(this.props);
+    this.props.openModal(this.props); //apre il modale
   } 
 
   render(){
-    /*const styles = {
-      container: {
-        // fontSize: 14,
-        // backgroundColor: 'white', 
-        color: '#44546b',
-        cursor: 'pointer',
-        width: 260,
-        border: '1px solid red  '
-      }
-    }*/
     return(
-      <div className="Media" /*style = {styles.container}*/ onClick={this.handleClick} >
+    <div className="Media" onClick={this.handleClick /*al click fai partire la funzione handleClick*/} >
         <div className="Media-cover">
           <img 
             src={this.props.cover}
@@ -56,11 +33,13 @@ class Media extends PureComponent{
   }
 }
 
+
+// Validazione del tipo di proprietà: string, number, object, func, array, bool, symbol
 Media.propTypes = {
-  cover: PropTypes.string,
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string,
-  type: PropTypes.oneOf(['video','audio']),
+  cover: PropTypes.string, //stringa
+  title: PropTypes.string.isRequired, //stringa.obbigatoria
+  author: PropTypes.string, //stringa
+  type: PropTypes.oneOf(['video','audio']), //una dei due: video o audio
 }
 
-export default Media;
+export default Media; //esporto componente Media
