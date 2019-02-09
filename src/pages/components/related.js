@@ -5,7 +5,7 @@ import './related.css'
 function Related(props){  
   return(
     <div className="Related">
-      <h1 className="Trident-logo">Trident <br/>Video</h1>
+      <h1 className="Trident-logo">React <br/>Video</h1>
     </div>
   )
 }
