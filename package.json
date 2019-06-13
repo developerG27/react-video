@@ -11,7 +11,7 @@
   "keywords": [
     "reeract"
   ],
-  "author": "LeonidasEsteban",
+  "author": "GianPumayalla",
   "license": "MIT",
   "devDependencies": {
     "babel-preset-stage-2": "6.24.1",
